@@ -24,7 +24,7 @@ namespace pwm_v1
             try
             {
                 //Create ConnectionString
-                string ConnectionString = @"Data Source=DESKTOP-5JC6HTG\SQLEXPRESS;Initial Catalog=THIRDEYE_PASSWORD_MANAGER;User Id=yasiru;password=123456789";
+                string ConnectionString = @"Data Source=DESKTOP\SQLEXPRESS;Initial Catalog=THIRDEYE_PASSWORD_MANAGER;User Id=yasiru;password=123456789";
 
                 //Create SqlConnection with Connection class
                 SqlConnection Con = new SqlConnection(ConnectionString);
